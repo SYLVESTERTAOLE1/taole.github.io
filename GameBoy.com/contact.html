@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Document</title>
+
+</head>
+<body>
+    <header>
+        <a href="index.html"><button>HOME </button></a>
+        <a href="services.html"> <button>SERVICES </button></a>
+        <a href="about.html"><button> ABOUT </button></a>
+        <a href="contact.html"><button>CONTACT </button></a>
+    </heade>
+
+    <div class="container">
+        <h1>Contact Us</h1>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <div class="social-icons">
+        <a href="https://www.facebook.com/your-facebook-page" target="_blank"><i class="fab fa-facebook-f"> GameBoy-Pryst </i></a>
+        <a href="https://twitter.com/your-twitter-profile" target="_blank"><i class="fab fa-twitter">GameBoy-Pryst</i></a>
+        <a href="https://www.instagram.com/your-instagram-profile" target="_blank"><i class="fab fa-instagram">GameBoy-Pryst</i></a>
+        <a href="https://api.whatsapp.com/send?phone=1234567890" target="_blank"><i class="fab fa-whatsapp">GameBoy-Pryst</i></a>
+    </div>
+</div>
+    
+</body>
+</html>
